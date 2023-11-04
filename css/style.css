@@ -1,32 +1,49 @@
 * {
     margin: 0; 
     padding: 0;
+    background-color:#fbf5f1  ; /* background-Color for entire web*/
+    color: #a82e4c;/* Color for entire Bold text and button  */
+
 }
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #f78da7;
+    color: #a72c4a;
     text-align: center;
     height: 73px;
     padding: 20;
     
     
 }
-   h1{
+h1{
     padding: 20px;
-   }
+    color: #a72c4a;
+}
+
+h2 {
+   
+    color: #a72c4a;
+    font-family: josefin sans,sans-serif;
+    font-size: 45px;
+    line-height: 55px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    text-transform: none;
+}
+
 header img{
-    width: 65px;
+    width: 250px;
     height: auto;
     margin-left: 0;
     float: left;
     padding-left: 5px;
-    padding-top: 5px;
+    padding-top: 15px;
 
   
 }
   
 nav ul {
-    background-color: #444;
+/*     background-color: #444; */
     text-align: center;
     padding: 10px;
     border: 1px solid white;
@@ -40,62 +57,80 @@ nav li {
     
 .menu a{
     text-decoration: none;
-    color: #fff;
+    color: #7c7b7c;
     font-size: 30px;
+  
+  
+ 
 }
 .menu a:hover{ 
-    color: red;
+    color: #a72c4a;
 }
-    
+ul {
+ /*    background-color: #c67486;  */
+}    
 aside {
         
     width: 25%;
     height: 690px;
-    background-color: #444;
-    color:  ■#fff;
+/*     background-color: #444; */
+    
     float: left;
     padding: 10px;
 
        
 }
 aside li,h2{
-    color: #fff;
+  
     padding: 20px;
     font-size: 30px;
 }
 aside  li:hover{ 
     color: red;
 }
-main {
-    width: 50%;
+main .main-raight {
+    width: 20%;
     height: 640px;
     background-color: #f0f0f0; 
     border: 1px solid #ddd;
     background-size: cover;
-    background-image: url('Company_Logo.jpg');
+    background-image: url('/image/pray-stance.png');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 20% 100%;
+    opacity: 0.8;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px;
+
+}
+main .left {
+    width: 47%;
+    height: 640px;
+   /*  background-color: #ffffff;  */
+    border: 1px solid #ddd;
+    background-size: cover;
     float: left;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     padding: 10px;
-   
-  
-    
-    
 }
 
-     
+
+
 #text_one {
-    color: white; 
-    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #d1909d;
+    font-size: 29px;
     margin-left: 10px;
     margin-top: 15px;
 }
        
 #text_two {
-    color: red;  
+   color: #d1909d; 
     font-size: 20px;
     font-weight: bold;
     margin-left: 10px;
@@ -105,12 +140,12 @@ main {
     width: 150px;
     margin-bottom: 15px;
     margin-left: 10px;
-      
+    opacity: 1;  
 }
        
 footer {
-    height: 150px;
-    background-color: #333;
+    height: 80px;
+    background-color: #c67486;
     color: #fff;
     text-align: center;
     clear: both;
