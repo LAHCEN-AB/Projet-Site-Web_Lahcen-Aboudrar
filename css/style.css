@@ -19,7 +19,7 @@ h1{
     color: #a72c4a;
 }
 
-h2 {
+.left h2 {
    
     color: #a72c4a;
     font-family: josefin sans,sans-serif;
@@ -29,8 +29,56 @@ h2 {
     font-weight: 600;
     letter-spacing: -1.2px;
     text-transform: none;
+    text-align: center;
+    
+}
+.left h3 {
+   
+    color: #a72c4a;
+    font-family: josefin sans,sans-serif;
+    font-size: 25px;
+    line-height: 55px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    text-transform: none;
+    text-align: left;
+    padding: 10px;
+    padding-top: 20px;
+}
+.left h4 {
+   
+    color: #7c7b7c;
+    font-family: josefin sans,sans-serif;
+    font-size: 20px;
+    line-height: 55px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    text-align: justify;
+    padding-top: 5px;
 }
 
+h3{
+    color: #7c7b7c;
+    padding-bottom: 10px;
+}
+h4{
+    color: black;
+    text-align: center;
+}
+.meet{
+    display: inline-block;
+  
+}
+.lft img{
+    align-items: center;
+    text-align: center;
+    padding-left: 30px;
+}
+.rght{
+float: right;
+}
 header img{
     width: 250px;
     height: auto;
@@ -54,11 +102,16 @@ nav li {
     margin: 0 10px;
     
 }
-    
+.menu ul li a{
+    text-align: center;
+   
+}    
 .menu a{
     text-decoration: none;
     color: #7c7b7c;
     font-size: 30px;
+    margin-top: 173px;
+    margin-left: 126px;
   
   
  
@@ -66,13 +119,16 @@ nav li {
 .menu a:hover{ 
     color: #a72c4a;
 }
-ul {
- /*    background-color: #c67486;  */
-}    
+.menu h2{
+    margin-top: 173px;
+    margin-left: 126px;
+}
+    
 aside {
         
     width: 25%;
-    height: 690px;
+   /*  height: 690px; */
+   height: auto;
 /*     background-color: #444; */
     
     float: left;
@@ -89,8 +145,9 @@ aside  li:hover{
     color: red;
 }
 main .main-raight {
-    width: 20%;
-    height: 640px;
+   
+ /*    height: 640px; */
+    height: auto;
     background-color: #f0f0f0; 
     border: 1px solid #ddd;
     background-size: cover;
@@ -106,16 +163,16 @@ main .main-raight {
 
 }
 main .left {
-    width: 47%;
-    height: 640px;
-   /*  background-color: #ffffff;  */
+    width:70%;
+  /*   height: 640px; */
+  height: auto;
     border: 1px solid #ddd;
     background-size: cover;
     float: left;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 
 
@@ -127,13 +184,21 @@ main .left {
     font-size: 29px;
     margin-left: 10px;
     margin-top: 15px;
+    padding-bottom: 30px;
 }
        
 #text_two {
    color: #d1909d; 
-    font-size: 20px;
+   font-size: 29px;
     font-weight: bold;
     margin-left: 10px;
+    padding: 20px;
+}
+.contact a {
+    font-size: 29px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-decoration: none;
 }
        
 #image_test{
@@ -141,6 +206,7 @@ main .left {
     margin-bottom: 15px;
     margin-left: 10px;
     opacity: 1;  
+    
 }
        
 footer {
