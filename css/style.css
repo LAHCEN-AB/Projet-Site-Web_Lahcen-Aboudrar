@@ -94,7 +94,7 @@ nav ul {
 /*     background-color: #444; */
     text-align: center;
     padding: 10px;
-    border: 1px solid white;
+
 }
    
 nav li {
@@ -208,7 +208,9 @@ main .left {
     opacity: 1;  
     
 }
-       
+video{
+    margin-left: 220px;
+}       
 footer {
     height: 80px;
     background-color: #c67486;
