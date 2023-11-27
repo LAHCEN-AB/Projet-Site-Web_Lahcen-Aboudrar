@@ -6,44 +6,79 @@
     <link rel="stylesheet"  href="/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
     <title>monctonlions</title>
+   <style> 
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container2 {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        textarea {
+            height: 150px;
+        }
+        button {
+            background-color: #ad7e8a;
+            color: #fff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style> 
 </head>
 <body>
     
     <header>
-    <img src="/image/Company_Logo.png" alt="Company_Logo">
-    <h1> Welcome to the Moncton Lions Community Centre!</h1>
-    </header>
-    <nav>
-    <ul class="menu">
-    <li><a href="home.html">Home</a></li> <li>
-        <a href="news.html">News</a></li>
-    <li><a href="calendar.html">Calendar</a></li>
-    <li><a href="faq.html">FAQ</a></li>
-    <li><a href="about.html">About us</a></li>
-    <li><a href="contact.html">Contact</a></li>
-   
-    </ul>
-   
-    </nav>
+        <img
+          class="img-header"
+          src="/image/Company_Logo.png"
+          alt="Company_Logo"
+        />
+        <h1>Welcome to the Moncton Lions Community Centre!</h1>
+      </header><br>
+      <nav>
+        <ul class="menu nav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="calendar.html">Calendar</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
   
-    <aside>
-   
+      <div class="container">
+        <aside>
+          <ul class="menu Aside">
+            <li>Menu</li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a href="https://www.facebook.com/monctonlions/" target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li><a href="Biographie.html">Biographie </a></li>
+          </ul>
+        </aside>
   
-  
-    <ul class="menu">
-    <li> <h2>Menu</h2></li>
-    <li><a href="login.html">LOGIN</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  
-    <li><a href="https://www.facebook.com/monctonlions/" target="_blank">Facebook</a></li>
-    <li><a href="Biographie.html">Biographie </a></li>
-   
-    </ul>
-   
-
-       
-    </aside>
-    
     <main >
 
 <div class="left">
@@ -67,12 +102,33 @@
             <h3>President & Chair</h3>
             <h4>Norval McConnell V</h4>
         </div>
+        <div class="container2">
+            <h1>Contact Us</h1>
+            <form action="process_contact.php" method="post">
+                <div class="form-group">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Adresse e-mail :</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </div>
     </div >    
 
 </div>   
 
+
     </main>
-  
+  </div>
     <footer>
    
     &copy; Moncton Lions Community Centre 2023| Designed & Hosted by Lahcen Aboudrar
