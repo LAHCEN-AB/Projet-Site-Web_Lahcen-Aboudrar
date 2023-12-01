@@ -80,7 +80,21 @@ nav li {
   font-size: 30px;
   font-stretch: expanded;
 }
-
+ /* styles for the banner Images Container */
+.flex-banner{
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+ 
+}
+ /* styles for the banner Images*/
+.banner{
+  width: 90%;
+  height: auto;
+  text-align: center; /* Align contents of the banner to the center */
+  padding: 20px; /* padding */
+  margin: 0 auto; /* Horizontally center the banner */
+}
 /*  -----------CONTAINER----------- */
 .container {
   display: flex;
@@ -233,7 +247,7 @@ video {
 
 /*  -----------footer----------- */
 footer {
-  height: 80px;
+  height: 120px;
   background-color: #c67486;
   color: #e2cccc;
   display: flex;
@@ -260,7 +274,7 @@ footer a {
     visibility: hidden;
   }
 
-  .img-header {
+  .img-header,.banner{
     width: 100%;
     height: auto;
     margin-bottom: 20px;
@@ -312,6 +326,7 @@ footer a {
   }
 
   footer {
+    height: 80px;
     font-size: 16px;
   }
 }
