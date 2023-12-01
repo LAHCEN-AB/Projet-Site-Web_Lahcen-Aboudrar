@@ -90,7 +90,7 @@ nav li {
  /* styles for the banner Images*/
 .banner{
   width: 90%;
-  height: auto;
+  max-height: 750px;
   text-align: center; /* Align contents of the banner to the center */
   padding: 20px; /* padding */
   margin: 0 auto; /* Horizontally center the banner */
